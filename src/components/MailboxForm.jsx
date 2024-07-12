@@ -22,7 +22,7 @@ const MailboxDetails = (props) => {
 
   return (
     <main>
-      <h2>New Pokemon</h2>
+      <h1>New Mailbox</h1>
       <form onSubmit={_handleSubmit}>
         <label>
           Enter a Boxholder:

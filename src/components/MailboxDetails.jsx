@@ -7,7 +7,8 @@ const MailboxForm = (props) => {
   );
   return (
     <>
-      <h2>MailBox {selectedBox._id}</h2>
+      <h1>MailBox {selectedBox._id}</h1>
+      <h2>Details</h2>
       <p>Boxholder: {selectedBox.boxholder}</p>
       <p>Box Size: {selectedBox.boxSize}</p>
     </>

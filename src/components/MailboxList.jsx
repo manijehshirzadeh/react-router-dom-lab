@@ -10,7 +10,7 @@ const MailboxList = (props) => {
 
   return (
     <>
-      <h2>MailBoxes</h2>
+      <h1>MailBoxes</h1>
       <ul>{mailboxeListItems}</ul>
     </>
   );
